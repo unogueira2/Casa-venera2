@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Casa Venera - Joias em Ouro 18K</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Open+Sans&display=swap" rel="stylesheet" />
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Open Sans', sans-serif;
+      background-color: #f7f1e6;
+      color: #0f0f0f;
+    }
+    header {
+      background-color: #0f0f0f;
+      color: #CBA135;
+      padding: 2rem;
+      text-align: center;
+    }
+    header h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 2.5rem;
+      margin: 0;
+    }
+    header p {
+      font-size: 1.1rem;
+    }
+    section {
+      padding: 3rem 2rem;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+    h2 {
+      font-family: 'Playfair Display', serif;
+      font-size: 2rem;
+      color: #CBA135;
+      margin-bottom: 1rem;
+    }
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      justify-content: center;
+    }
+    .gallery img {
+      width: 300px;
+      border: 2px solid #CBA135;
+      border-radius: 8px;
+    }
+    .product {
+      text-align: center;
+      margin-top: 1rem;
+      font-size: 0.9rem;
+    }
+    footer {
+      background-color: #0f0f0f;
+      color: #fff;
+      padding: 2rem;
+      text-align: center;
+    }
+    .contact {
+      margin-top: 1rem;
+      line-height: 1.8;
+    }
+    a {
+      color: #CBA135;
+      text-decoration: none;
+    }
+    .btn {
+      display: inline-block;
+      background-color: #CBA135;
+      color: #0f0f0f;
+      padding: 10px 20px;
+      margin: 15px 0;
+      border-radius: 5px;
+      font-weight: bold;
+      text-decoration: none;
+    }
+    form {
+      margin-top: 2rem;
+    }
+    form input, form textarea {
+      width: 100%;
+      padding: 10px;
+      margin: 5px 0 15px 0;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Casa Venera</h1>
+    <p>Ouro é para sempre. Tradição que atravessa gerações.</p>
+  </header>
+
+  <section>
+    <h2>Nossa História</h2>
+    <p>
+      Fundada em 1991 no coração do Brasil, a Casa Venera nasceu com o propósito de preservar o valor real do ouro
+      em cada geração. São mais de 30 anos de tradição joalheira, reconhecida por clientes que veem o ouro não apenas
+      como luxo, mas como patrimônio sólido e atemporal. Hoje, levamos nossa tradição aos Estados Unidos,
+      oferecendo joias refinadas para brasileiros e latinos que valorizam autenticidade, beleza e investimento seguro.
+    </p>
+  </section>
+
+  <section>
+    <h2>Coleção Ouro 18K</h2>
+    <div class="gallery">
+      <div>
+        <img src="https://example.com/images/joia1.jpg" alt="Pulseira Elos" />
+        <div class="product">Pulseira Elos Clássica – 8,5g<br>USD 640</div>
+      </div>
+      <div>
+        <img src="https://example.com/images/joia2.jpg" alt="Pingente Flor" />
+        <div class="product">Pingente Flor Solar – 3,2g<br>USD 290</div>
+      </div>
+      <div>
+        <img src="https://example.com/images/joia3.jpg" alt="Conjunto Anéis" />
+        <div class="product">Kit Anéis Ouro 18K – 6,1g<br>USD 470</div>
+      </div>
+    </div>
+    <div style="text-align: center">
+      <a href="https://wa.me/1XXXXXXXXXX" class="btn" target="_blank">Comprar pelo WhatsApp</a>
+    </div>
+  </section>
+
+  <section>
+    <h2>Por que Ouro 18K?</h2>
+    <p>
+      Ao contrário de outros artigos de luxo que perdem valor com o tempo, o ouro verdadeiro mantém sua valorização
+      e liquidez. Nossas joias são feitas em ouro 18 quilates com acabamento refinado e autenticidade garantida.
+    </p>
+  </section>
+
+  <section>
+    <h2>Fale Conosco</h2>
+    <form action="mailto:atendimento@casavenera.com" method="POST" enctype="text/plain">
+      <input type="text" name="nome" placeholder="Seu nome" required />
+      <input type="email" name="email" placeholder="Seu e-mail" required />
+      <textarea name="mensagem" rows="5" placeholder="Sua mensagem..."></textarea>
+      <button type="submit" class="btn">Enviar</button>
+    </form>
+  </section>
+
+  <footer>
+    <h2>Contato</h2>
+    <div class="contact">
+      📍 Miami, FL<br />
+      📞 WhatsApp: +1 (XXX) XXX-XXXX<br />
+      📧 Email: atendimento@casavenera.com<br />
+      📸 Instagram: <a href="https://www.instagram.com/casaveneraoficial" target="_blank">@casaveneraoficial</a>
+    </div>
+  </footer>
+</body>
+</html>
